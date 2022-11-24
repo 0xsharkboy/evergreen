@@ -1,6 +1,15 @@
 # evergreen
 🌲 Host &amp; share your social information
 
+<p align="center">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/Neotoxic-off/evergreen?style=for-the-badge">
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Neotoxic-off/evergreen?style=for-the-badge">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Neotoxic-off/evergreen?style=for-the-badge">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Neotoxic-off/evergreen?style=for-the-badge">
+    <img alt="Scrutinizer code quality (GitHub/Bitbucket)" src="https://img.shields.io/evergreen/quality/g/Neotoxic-off/emcee?style=for-the-badge">
+</p>
+
+
 ## Install
 ```BASH
 git clone git@github.com:Neotoxic-off/evergreen.git
