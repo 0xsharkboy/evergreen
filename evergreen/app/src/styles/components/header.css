@@ -1,0 +1,14 @@
+@import "../root.css";
+
+.profile {
+    border: 2px;
+    border-color: var(--foreground);
+    border-radius: 50%;
+    border-style: solid;
+
+    height: 150px;
+    width: 150px;
+
+    margin-top: 10%;
+    margin-bottom: 30px;
+}

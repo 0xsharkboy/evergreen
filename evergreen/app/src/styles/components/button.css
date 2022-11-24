@@ -1,0 +1,23 @@
+@import "../root.css";
+
+.button {
+  background-color: var(--button-background);
+
+  border-radius: 0.6rem;
+  border-color: var(--foreground);
+  border-inline-color: var(--foreground);
+  border-style: solid;
+
+  color: var(--foreground);
+
+  margin-top: 10px;
+
+  padding: 10px 100px;
+}
+
+.icon {
+  fill: var(--foreground);
+
+  margin-bottom: -7px;
+  margin-right: 10px;
+}

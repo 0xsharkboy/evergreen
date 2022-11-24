@@ -1,15 +1,25 @@
 import React from 'react';
-import IconSearch from "@mui/icons-material/Search"
-import { Button }from "@mui/material";
 
-class Search extends React.Component {
+import "../styles/components/button.css";
+
+class Button extends React.Component {
+  Icon({icon: Logo}) {
+    return (
+      <Logo className="icon"/>
+    )
+  }
   render() {
     return (
       <>
-        
+        <div>
+          <button className="button">
+            <this.Icon icon={this.props.icon}/>
+            {this.props.text}
+          </button>
+        </div>
       </>
     );
   }
 }
 
-export default Search;
+export default Button;
