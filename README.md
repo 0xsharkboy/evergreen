@@ -1,2 +1,2 @@
 # evergreen
-🌲 host &amp; share your content
+🌲 Host &amp; share your social information

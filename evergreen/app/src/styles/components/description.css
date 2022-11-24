@@ -1,0 +1,11 @@
+@import "../root.css";
+
+.description {
+  color: var(--foreground);
+
+  font-weight: bold;
+}
+
+.separator-description {
+  margin-bottom: 50px;
+}

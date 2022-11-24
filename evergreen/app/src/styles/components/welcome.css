@@ -1,0 +1,7 @@
+@import "../root.css";
+
+.welcome {
+  color: var(--foreground);
+
+  font-weight: bold;
+}

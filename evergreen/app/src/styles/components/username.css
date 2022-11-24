@@ -1,0 +1,13 @@
+@import "../root.css";
+
+.username {
+  color: var(--foreground);
+
+  font-weight: bold;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.separator-username {
+  margin-bottom: 20px;
+}

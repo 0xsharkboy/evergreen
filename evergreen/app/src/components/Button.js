@@ -14,7 +14,11 @@ class Button extends React.Component {
         <div>
           <button className="button">
             <this.Icon icon={this.props.icon}/>
-            {this.props.text}
+            <a className="link" href={this.props.link}>
+              <div className="center">
+                {this.props.text}
+              </div>
+            </a>
           </button>
         </div>
       </>

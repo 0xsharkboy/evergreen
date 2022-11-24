@@ -1,12 +1,1 @@
-<svg
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path d="M3 3H11V11H3V3Z" fill="currentColor" />
-  <path d="M3 13H11V21H3V13Z" fill="currentColor" />
-  <path d="M13 3H21V11H13V3Z" fill="currentColor" />
-  <path d="M13 13H21V21H13V13Z" fill="currentColor" />
-</svg>
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Microsoft</title><path d="M0 0v11.408h11.408V0zm12.594 0v11.408H24V0zM0 12.594V24h11.408V12.594zm12.594 0V24H24V12.594z"/></svg>

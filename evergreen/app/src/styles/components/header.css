@@ -1,14 +1,30 @@
 @import "../root.css";
 
 .profile {
-    border: 2px;
-    border-color: var(--foreground);
-    border-radius: 50%;
-    border-style: solid;
+  border: 2px;
+  border-color: var(--foreground);
+  border-radius: 50%;
+  border-style: solid;
 
-    height: 150px;
-    width: 150px;
+  height: 150px;
+  width: 150px;
 
-    margin-top: 10%;
-    margin-bottom: 30px;
+  margin-top: 10%;
+  margin-bottom: 50px;
+
+  animation-name: animate;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
 }
+
+@keyframes animate {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+
+

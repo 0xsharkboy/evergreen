@@ -1,23 +1,41 @@
 import Button from "../components/Button";
 import Header from "../components/Header";
+import Description from "../components/Description";
+import Welcome from "../components/Welcome";
+import Username from "../components/Username";
 
-import { ReactComponent as Youtube } from "../assets/icons/svg/youtube.svg";
-import { ReactComponent as Github } from "../assets/icons/svg/git-fork.svg";
-import { ReactComponent as Instagram } from "../assets/icons/svg/instagram.svg";
-import { ReactComponent as Twitter } from "../assets/icons/svg/twitter.svg";
-import { ReactComponent as Telegram } from "../assets/icons/svg/pokemon.svg";
+import { ReactComponent as Github } from "../assets/icons/svg/github.svg";
+import { ReactComponent as Code } from "../assets/icons/svg/code.svg";
+import { ReactComponent as OF } from "../assets/icons/svg/onlyfans.svg";
 
-import Avatar from "../assets/profile/avatar.png";
 
 function Home() {
   return (
     <>
       <Header profile="https://avatars.githubusercontent.com/u/44700383?v=4"/>
-      <Button text="Instagram" icon={Instagram}/>
-      <Button text="Youtube" icon={Youtube}/>
-      <Button text="Twitter" icon={Twitter}/>
-      <Button text="Github" icon={Github}/>
-      <Button text="Telegram" icon={Telegram}/>
+
+      <Username text="neo"/>
+
+      <Welcome text="Hi, I am neo"/>
+      <Description
+        text="I am a developer. Feel free to use my stuff"
+      />
+
+      <Button
+        text="Github"
+        link="https://github.com/Neotoxic-off"
+        icon={Github}
+      />
+      <Button
+        text="Source code"
+        link="https://github.com/Neotoxic-off/evergreen"
+        icon={Code}
+      />
+      <Button
+        text="Onlyfans"
+        link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        icon={OF}
+      />
     </>
   );
 };
