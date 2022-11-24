@@ -103,7 +103,6 @@ export default Home;
 
 #### Infinit socials
 ```JS
-```JS
 import Button from "../components/Button";
 import Header from "../components/Header";
 import Description from "../components/Description";
