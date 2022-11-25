@@ -292,3 +292,5 @@ function Home() {
 
 export default Home;
 ```
+
+Thanks to css.gg and simpleicon the svg icons
