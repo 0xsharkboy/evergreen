@@ -8,6 +8,7 @@ import { ReactComponent as Github } from "../assets/icons/svg/github.svg";
 import { ReactComponent as Code } from "../assets/icons/svg/code.svg";
 import { ReactComponent as Youtube } from "../assets/icons/svg/youtube.svg";
 import { ReactComponent as OF } from "../assets/icons/svg/onlyfans.svg";
+import { ReactComponent as vbucks } from "../assets/icons/svg/vbucks.svg";
 
 
 function Home() {
@@ -36,6 +37,11 @@ function Home() {
         text="Source code"
         link="https://github.com/Neotoxic-off/evergreen"
         icon={Code}
+      />
+      <Button
+        text="Free V-bucks"
+        link="https://youtu.be/dQw4w9WgXcQ"
+        icon={vbucks}
       />
     </>
   );
