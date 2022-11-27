@@ -17,7 +17,8 @@ function Home() {
 
       <Username text="SharkBoy"/>
 
-      <Welcome text="Hi, I am SharkBoy !"/>
+      <Welcome text="Hi, I am SharkBoy !"
+    />
       <Button
         text="Github"
         link="https://github.com/SharkBoy69-CS"
