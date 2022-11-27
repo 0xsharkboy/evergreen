@@ -25,11 +25,6 @@ function Home() {
         icon={Github}
       />
       <Button
-        text="Source code"
-        link="https://github.com/Neotoxic-off/evergreen"
-        icon={Code}
-      />
-      <Button
         text="Youtube"
         link="https://www.youtube.com/channel/UCkz62-16Nsw-3Jd7qGqM3pw"
         icon={Youtube}
@@ -38,6 +33,11 @@ function Home() {
         text="Onlyfans"
         link="https://youtu.be/Pwq4rqJYH8o"
         icon={OF}
+      />
+      <Button
+        text="Source code"
+        link="https://github.com/Neotoxic-off/evergreen"
+        icon={Code}
       />
     </>
   );
