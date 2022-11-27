@@ -18,9 +18,6 @@ function Home() {
       <Username text="SharkBoy"/>
 
       <Welcome text="Hi, I am SharkBoy !"/>
-      <Description
-        text="I am trying to dev 😅"
-      />
       <Button
         text="Github"
         link="https://github.com/SharkBoy69-CS"
