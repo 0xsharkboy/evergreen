@@ -31,7 +31,6 @@ function Home() {
         link="https://github.com/Neotoxic-off/evergreen"
         icon={Code}
       />
-      />
       <Button
         text="Youtube"
         link="https://www.youtube.com/channel/UCkz62-16Nsw-3Jd7qGqM3pw"
