@@ -38,11 +38,6 @@ function Home() {
         link="https://github.com/Neotoxic-off/evergreen"
         icon={Code}
       />
-      <Button
-        text="Free V-bucks"
-        link="https://youtu.be/dQw4w9WgXcQ"
-        icon={vbucks}
-      />
     </>
   );
 };
