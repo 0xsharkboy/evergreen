@@ -16,7 +16,9 @@ function Home() {
     <>
       <Header profile="https://avatars.githubusercontent.com/u/58356637?s=400&u=3c76f657b46dd5adb9bf0bd92e495ddbd42aac52&v=4"/>
     
-      <Welcome text="Hi, I am SharkBoy !"/>
+      <Username text="Achille"/>
+    
+      <Welcome text="Hi, welcome on my page ^^"/>
     
       <Button
         text="Github"
