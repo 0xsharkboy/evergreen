@@ -18,7 +18,7 @@ function Home() {
     
       <Username text="Achille"/>
     
-      <Welcome text="Hi, welcome on my page ^^"/>
+      <Welcome text="Hi, welcome on my page !"/>
     
       <Button
         text="Github"
