@@ -5,9 +5,9 @@ import Welcome from "../components/Welcome";
 import Username from "../components/Username";
 
 import { ReactComponent as Github } from "../assets/icons/svg/github.svg";
-import { ReactComponent as Code } from "../assets/icons/svg/code.svg";
+import { ReactComponent as lineage } from "../assets/icons/svg/lineageos.svg";
 import { ReactComponent as Youtube } from "../assets/icons/svg/youtube.svg";
-import { ReactComponent as OF } from "../assets/icons/svg/onlyfans.svg";
+import { ReactComponent as lineage } from "../assets/icons/svg/onlyfans.svg";
 
 function Home() {
   return (
@@ -29,14 +29,14 @@ function Home() {
         icon={Youtube}
       />
       <Button
+        text="My Redmi Note 7 LineageOS 20.0"
+        link="https://forum.xda-developers.com/t/rom-unofficial-13-0-ota-open-source-encryption-lineageos-20-for-redmi-note-7-lavender.4544471/"
+        icon={lineage}
+      />
+      <Button
         text="Onlyfans"
         link="https://youtu.be/Pwq4rqJYH8o"
         icon={OF}
-      />
-      <Button
-        text="Source code"
-        link="https://github.com/Neotoxic-off/evergreen"
-        icon={Code}
       />
     </>
   );
