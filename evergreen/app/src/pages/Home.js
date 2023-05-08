@@ -7,7 +7,7 @@ import Username from "../components/Username";
 import { ReactComponent as Github } from "../assets/icons/svg/github.svg";
 import { ReactComponent as lineage } from "../assets/icons/svg/lineageos.svg";
 import { ReactComponent as Youtube } from "../assets/icons/svg/youtube.svg";
-import { ReactComponent as lineage } from "../assets/icons/svg/onlyfans.svg";
+import { ReactComponent as OF } from "../assets/icons/svg/onlyfans.svg";
 
 function Home() {
   return (
