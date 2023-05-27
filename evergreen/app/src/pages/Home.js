@@ -8,6 +8,7 @@ import { ReactComponent as Github } from "../assets/icons/svg/github.svg";
 import { ReactComponent as lineage } from "../assets/icons/svg/lineageos.svg";
 import { ReactComponent as Youtube } from "../assets/icons/svg/youtube.svg";
 import { ReactComponent as OF } from "../assets/icons/svg/onlyfans.svg";
+import { ReactComponent as telegram } from "../assets/icons/svg/telegram.svg";
 
 function Home() {
   return (
@@ -32,6 +33,11 @@ function Home() {
         text="My Redmi Note 7 LineageOS 20.0"
         link="https://forum.xda-developers.com/t/rom-unofficial-13-0-ota-open-source-encryption-lineageos-20-for-redmi-note-7-lavender.4544471/"
         icon={lineage}
+      />
+      <Button
+        text="Contact Me"
+        link="t.me/SharkB69y"
+        icon={telegram}
       />
       <Button
         text="Onlyfans"
