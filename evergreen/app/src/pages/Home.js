@@ -30,6 +30,11 @@ function Home() {
         icon={Youtube}
       />
       <Button
+        text="Onlyfans"
+        link="https://youtu.be/Pwq4rqJYH8o"
+        icon={OF}
+      />
+      <Button
         text="My Redmi Note 7 LineageOS 20.0"
         link="https://forum.xda-developers.com/t/rom-unofficial-13-0-ota-open-source-encryption-lineageos-20-for-redmi-note-7-lavender.4544471/"
         icon={lineage}
@@ -38,11 +43,6 @@ function Home() {
         text="Contact Me"
         link="https://t.me/SharkB69y"
         icon={telegram}
-      />
-      <Button
-        text="Onlyfans"
-        link="https://youtu.be/Pwq4rqJYH8o"
-        icon={OF}
       />
     </>
   );
