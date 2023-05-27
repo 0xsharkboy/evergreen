@@ -26,7 +26,7 @@ function Home() {
       />
       <Button
         text="Youtube"
-        link="https://www.youtube.com/channel/UCkz62-16Nsw-3Jd7qGqM3pw"
+        link="https://www.youtube.com/@thatfrenchyboii"
         icon={Youtube}
       />
       <Button
