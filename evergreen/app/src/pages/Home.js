@@ -36,7 +36,7 @@ function Home() {
       />
       <Button
         text="Contact Me"
-        link="t.me/SharkB69y"
+        link="https://t.me/SharkB69y"
         icon={telegram}
       />
       <Button
