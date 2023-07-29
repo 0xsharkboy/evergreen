@@ -26,14 +26,14 @@ function Home() {
         icon={Github}
       />
       <Button
-        text="Soundcloud"
-        link="https://soundcloud.com/0xhsrakboy"
-        icon={soundcloud}
-      />
-      <Button
         text="Youtube"
         link="https://www.youtube.com/@thatfrenchyboii"
         icon={Youtube}
+      />
+      <Button
+        text="Soundcloud"
+        link="https://soundcloud.com/0xhsrakboy"
+        icon={soundcloud}
       />
       <Button
         text="Onlyfans"
