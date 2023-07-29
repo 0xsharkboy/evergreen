@@ -9,6 +9,7 @@ import { ReactComponent as lineage } from "../assets/icons/svg/lineageos.svg";
 import { ReactComponent as Youtube } from "../assets/icons/svg/youtube.svg";
 import { ReactComponent as OF } from "../assets/icons/svg/onlyfans.svg";
 import { ReactComponent as telegram } from "../assets/icons/svg/telegram.svg";
+import { ReactComponent as soundcloud } from "../assets/icons/svg/soundcloud.svg";
 
 function Home() {
   return (
@@ -23,6 +24,11 @@ function Home() {
         text="Github"
         link="https://github.com/SharkBoy69-CS"
         icon={Github}
+      />
+      <Button
+        text="Soundcloud"
+        link="https://soundcloud.com/0xhsrakboy"
+        icon={soundcloud}
       />
       <Button
         text="Youtube"
