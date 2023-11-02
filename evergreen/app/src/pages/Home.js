@@ -22,7 +22,7 @@ function Home() {
     
       <Button
         text="Github"
-        link="https://github.com/SharkBoy69-CS"
+        link="https://github.com/0xsharkboy"
         icon={Github}
       />
       <Button
